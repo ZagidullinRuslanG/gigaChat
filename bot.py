@@ -17,7 +17,7 @@ from chromadb.config import Settings
 from langchain_community.vectorstores import Chroma
 from langchain_community.embeddings.gigachat import GigaChatEmbeddings
 
-token = 'NmNhYjhmZGEtNmFmNi00MDAwLTg5NWMtNWRiZDJjYjRjN2E1OjUxMzM1Yzk1LWUzY2EtNDJjZC1iMTRjLWJlMzllM2JjYTYyYQ=='
+token = '=='
 
 llm = GigaChat(
     credentials=token,
